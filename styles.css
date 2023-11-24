@@ -51,7 +51,7 @@ nav a:hover {
 .hero-banner {
     background-size: cover;
     background-position: center;
-    height: 700px;
+    height: 750px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -60,7 +60,7 @@ nav a:hover {
 }
 
 .hero-content {
-    max-width: 800px;
+    max-width: 3000px;
     padding: 20px;
 }
 
@@ -79,33 +79,58 @@ h1 {
 
 .banner-img {
     max-width: 580px;
-    margin-top: 13px;
+    margin-top: 50px;
 
 }
 
 .logo-black {
     max-width: 52px;
+    margin-top: 15px;
+
 }
 
 .white {
     color: white;
     background-color: black;
+    height: 750px;
+    max-width: 100%;
 }
 
-.banner-img white {
-    max-width: 700px;
+.Pro {
+    margin-top: 12px;
+
+}
+
+h2 {
+    font-size: 26px;
+    font-weight: 500;
+}
+
+h5 {
+    font-size: 14.45px;
+    font-weight: 100;
+    letter-spacing: .2px;
+}
+
+h3 {
+    font-size: 21px;
+    font-weight: 520;
+    color: rgb(15, 109, 206);
+}
+
+.white .hero-content img {
+    margin: 0;
+    padding: 0;
+    width: 1080px;
+    display: block; 
+   
 }
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    /* Two columns */
-    grid-template-rows: repeat(2, 1fr);
-    /* Two rows */
+    grid-template-columns: repeat(2, 1fr) grid-template-rows: repeat(2, 1fr);
     gap: 10px;
-    /* Adjust the gap between grid items */
     height: 100vh;
-    /* Adjust the height of the grid container */
 }
 
 .grid-item {
