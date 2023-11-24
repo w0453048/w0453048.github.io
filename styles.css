@@ -1,7 +1,6 @@
 body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-
 }
 
 nav {
@@ -28,7 +27,7 @@ nav ul {
 }
 
 nav li {
-    margin-right: 41px;
+    margin: 0 22px;
 }
 
 nav a {
@@ -47,6 +46,72 @@ nav a:hover {
 
 #logo {
     max-width: 17px;
+}
+
+.hero-banner {
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 800px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: 780;
+}
+
+.banner-a {
+    display: block;
+    color: rgb(15, 109, 206);
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.banner-img {
+    max-width: 580px;
+    margin-top: 13px;
+
+}
+
+.logo-black {
+    max-width: 52px;
+}
+
+.white {
+    color: white;
+    background-color: black;
+}
+
+.banner-img white {
+    max-width: 700px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Two columns */
+    grid-template-rows: repeat(2, 1fr);
+    /* Two rows */
+    gap: 10px;
+    /* Adjust the gap between grid items */
+    height: 100vh;
+    /* Adjust the height of the grid container */
+}
+
+.grid-item {
+    background-color: #ddd;
+    padding: 20px;
+    text-align: center;
 }
 
 @media screen and (max-width: 600px) {
